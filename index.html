@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>オセロゲーム</title>
+    <!-- CSSを読み込む -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1>オセロ</h1>
+
+    <!-- ステータス表示エリア -->
+    <div id="status-board">
+        現在のターン: <span id="current-player">黒 (Black)</span>
+    </div>
+
+    <!-- ゲームボード全体を配置するコンテナ -->
+    <div class="game-board" id="gameBoard">
+        <!-- ここにJavaScriptによって8x8のマスが生成されます。-->
+        <!-- 例として、手動で空のdivを入れることもできますが、JS生成推奨です。 -->
+    </div>
+
+    <button id="reset-button">リセット</button>
+
+    <!-- JavaScriptを読み込む (必ず</body>タグの直前が良い) -->
+    <script src="script.js"></script>
+</body>
+</html>
